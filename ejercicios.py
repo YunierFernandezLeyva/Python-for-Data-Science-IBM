@@ -3,3 +3,7 @@ def promedio(lista):
     return sum(lista)/len(lista)
 
 print(promedio(temp))
+
+for i in range(len(temp)):
+    if temp[i] > promedio(temp):
+        print(f"El valor {temp[i]} en la posición {i} es mayor al promedio")
