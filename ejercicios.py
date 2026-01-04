@@ -9,10 +9,19 @@ for i in range(len(temp)):
         print(f"El valor {temp[i]} en la posición {i} es mayor al promedio")
 '''
 
-temp = [6, 9, 3, 3, 3, 5, 7, 7]
+'''temp = [6, 9, 3, 3, 3, 5, 7, 7]
 
 A = temp[0]
 B = temp[-1]
 print(A, B)
 suma = sum(temp)/len(temp)
-print(suma)
+print(suma)'''
+
+# Ejercicio 1: Cast the following list to a set:
+['A','B','C','A','B','C']
+set(['A','B','C','A','B','C'])
+# Ejercicio 2: Add the string 'D' to the set S.
+S = set(['A','B','C'])
+S={'A','B','C'}
+S.add('D')
+print(S)
