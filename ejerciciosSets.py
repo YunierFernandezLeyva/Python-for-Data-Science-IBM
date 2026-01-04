@@ -1,21 +1,4 @@
-'''temp= [6,9,3,3,3,5,7,7]
-def promedio(lista):
-    return sum(lista)/len(lista)
-
-print(promedio(temp))
-
-for i in range(len(temp)):
-    if temp[i] > promedio(temp):
-        print(f"El valor {temp[i]} en la posición {i} es mayor al promedio")
-'''
-
-'''temp = [6, 9, 3, 3, 3, 5, 7, 7]
-
-A = temp[0]
-B = temp[-1]
-print(A, B)
-suma = sum(temp)/len(temp)
-print(suma)'''
+## Ejercicios de Sets
 
 # Ejercicio 1: Cast the following list to a set:
 ['A','B','C','A','B','C']
@@ -38,3 +21,15 @@ print(C)
 set1 = {"pop", "rock", "soul", "hard rock", "rock", "R&B", "rock", "disco"}
 set1
 print(set1)
+
+# Ejercicio 5: Convert list to set
+album_list = [ "Michael Jackson", "Thriller", 1982, "00:42:19", \
+              "Pop, Rock, R&B", 46.0, 65, "30-Nov-82", None, 10.0]
+album_set = set(album_list)
+print(album_set)  
+
+# Ejercicio 6: Convert list to set
+
+music_genres = set(["pop", "pop", "rock", "folk rock", "hard rock", "soul", \
+                    "progressive rock", "soft rock", "R&B", "disco"])
+print(music_genres)
