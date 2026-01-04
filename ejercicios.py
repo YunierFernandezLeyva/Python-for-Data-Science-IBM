@@ -14,5 +14,5 @@ temp = [6, 9, 3, 3, 3, 5, 7, 7]
 A = temp[0]
 B = temp[-1]
 print(A, B)
-suma = sum(temp)
+suma = sum(temp)/len(temp)
 print(suma)
