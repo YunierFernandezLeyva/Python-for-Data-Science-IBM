@@ -25,3 +25,10 @@ S = set(['A','B','C'])
 S={'A','B','C'}
 S.add('D')
 print(S)
+# Ejercicio 3: Find the intersection of set A and B.
+A={1,2,3,4,5}
+B={1,3,9, 12}
+A={1,2,3,4,5}
+B={1,3,9, 12}
+C = A & B
+print(C)
