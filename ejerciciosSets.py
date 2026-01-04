@@ -33,3 +33,41 @@ print(album_set)
 music_genres = set(["pop", "pop", "rock", "folk rock", "hard rock", "soul", \
                     "progressive rock", "soft rock", "R&B", "disco"])
 print(music_genres)
+
+#---------------------------Set Operations---------------------------------------
+
+# Sample set
+A = set(["Thriller", "Back in Black", "AC/DC"])
+print(A)
+
+# Add element to set
+A.add("NSYNC")
+print(A) 
+
+# Try to add duplicate element to the set
+A.add("NSYNC")
+print(A)
+
+# Remove the element from set
+A.remove("NSYNC")
+print(A)
+
+# Verify if the element is in the set
+"AC/DC" in A
+print("AC/DC" in A)
+
+#---------------------------Sets Logic Operations--------------------------------
+
+# Sample Sets
+album_set1 = set(["Thriller", 'AC/DC', 'Back in Black'])
+album_set2 = set([ "AC/DC", "Back in Black", "The Dark Side of the Moon"])
+
+# Print two sets
+print(album_set1, album_set2)
+
+# Find the intersections
+intersection = album_set1 & album_set2
+print(intersection)
+
+# Find the difference in set1 but not set2
+album_set1.difference(album_set2)
