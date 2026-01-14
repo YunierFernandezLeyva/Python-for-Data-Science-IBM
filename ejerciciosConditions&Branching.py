@@ -138,13 +138,13 @@ if not (album_year == 1984):
 
 #-------------------------------Quiz on Conditions-------------------------------#  
 
- '''Player Name	Sport	Achievements
-Serena Williams	Tennis	23 Grand Slams
-Lionel Messi	Soccer	7 Ballon d'Ors
-Michael Phelps	Swimming	23 Gold Medals
-Usain Bolt	Athletics	8 Gold Medals
-Roger Federer	Tennis	20 Grand Slams
-Cristiano Ronaldo	Soccer	5 Ballon d'Ors''' 
+ #Player Name	Sport	Achievements
+#Serena Williams	Tennis	23 Grand Slams
+#Lionel Messi	Soccer	7 Ballon d'Ors
+#Michael Phelps	Swimming	23 Gold Medals
+#Usain Bolt	Athletics	8 Gold Medals
+#Roger Federer	Tennis	20 Grand Slams
+#Cristiano Ronaldo	Soccer	5 Ballon d'Ors 
 
 #Write a Python program to check if a player Lionel Messi has more than 10 achievements. 
 # If the condition is true, print the player's name, sport, and achievements else print does not have more than 10 achievements.
