@@ -57,4 +57,38 @@ for num in range(1, 10):
 for num in range(1, 6):
     if num == 3:
         continue
-    print(num)   
+    print(num)  
+
+
+#Example 3: Using break and continue in a while loop
+
+count = 0
+while count < 10:
+    count += 1
+    if count == 3:
+        continue  # skip printing 3
+    if count == 8:
+        break     # stop the loop when count is 8
+    print(count)
+
+
+#---------------------------------Quiz on Loops---------------------------------
+
+for i in range(-5, 5):
+    print(f"El rango es {i}")
+
+
+#Print the elements of the following list: Genres=[ 'rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop']. 
+# Make sure you follow Python conventions.
+
+Genres = ['rock', 'R&B', 'Soundtrack', 'R&B', 'soul', 'pop']
+for i in Genres:
+    print(f"Los géneros son {i}")
+
+
+#Write a for loop that prints out the following 
+# list: squares=['red', 'yellow', 'green', 'purple', 'blue']
+
+squares = ['red', 'yellow', 'green', 'purple', 'blue']
+for i in squares:
+    print(f"Los colores son {i}")
