@@ -92,3 +92,31 @@ for i in Genres:
 squares = ['red', 'yellow', 'green', 'purple', 'blue']
 for i in squares:
     print(f"Los colores son {i}")
+
+
+#Write a while loop to display the values of the Rating of an album playlist stored in thePlayListRatings list. If the score is less than 6, exit the loop. 
+# The list PlayListRatings is given by: PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
+
+PlayListRatings = [10, 9.5, 10, 8, 7.5, 5, 10, 10]
+i = 0
+Rating = PlayListRatings[0]
+while(Rating >= 6):    
+    print(Rating)
+    i = i + 1
+    Rating = PlayListRatings[i] 
+print("Se salió del bucle porque la calificación es menor que 6.")
+
+
+#Write a while loop to copy the strings 'orange' of the list squares to the list new_squares. 
+# Stop and exit the loop if the value on the list is not 'orange':
+
+squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
+new_squares = []
+
+i=0
+color = squares[0]  
+while(color == 'orange'):    
+    new_squares.append(color)
+    i = i + 1
+    color = squares[i]
+print("Los nuevos colores son:", new_squares)
