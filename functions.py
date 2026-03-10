@@ -1,6 +1,9 @@
 # First function example: Add 1 to a and store as b
 
 
+from typing import Dict
+
+
 def add(a):
     """
     add 1 to a
